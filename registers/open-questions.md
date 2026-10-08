@@ -38,3 +38,7 @@ Rows are never deleted; status changes instead.
 | **OQ-032** | Is there source material to add under inputs/discovery/ (policy text, interview notes, process exports)? | Replaces hypotheses with evidence. | Business Owner | Phase 1 | open |
 | **OQ-033** | Who approves changes to the ADS after it is accepted, and who owns production evidence? | Governance and production feedback loop. | Architecture Owner | Phase 10 | open |
 | **OQ-034** | What does each state policy (CA, NY, NJ) say, who owns each, and how do they differ for routine requests? | Rule variants per state; routine versus exception line; eval cases. | Policy Owner | Phase 2 | open |
+| **OQ-035** | What target and measurement window does the Business Owner set for each measure in section 4? | No target or window can be sourced until set (G-4). | Business Owner | Phase 1 | open |
+| **OQ-036** | Does the solution include a probabilistic component (for example a model that interprets requests), and where? | Decides whether section 4.3 and the model-related invariants apply or the sections are marked not applicable. | Architecture Owner | Phase 4 | open |
+| **OQ-037** | Who audits resolutions against policy, how is the sample drawn, and what is the sample size? | Source and method for the correctness and leading-indicator measures. | Policy Owner | Phase 8 | open |
+| **OQ-038** | How is the applicable state policy determined for an employee (work location, residence, other)? | Rule selection per request; correctness of every resolution. | Policy Owner | Phase 2 | open |
