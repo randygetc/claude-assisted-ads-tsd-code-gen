@@ -8,13 +8,13 @@ the Log; the phase table's files and section mapping are fixed (they are mirrore
 
 Before any phase: `/outcome`. The business outcome statement must pass the test
 (strip the technology; is a goal left that could be pursued by several means?) and
-be recorded in `registers/decisions.md`. Status: not done
+be recorded in `registers/decisions.md`. Status: done (DEC-001, 2026-10-07)
 
 ## Phases
 
 | Phase | File | ADS sections | Status |
 |---|---|---|---|
-| 0 | `ads/00-intake.md` | 0, plus the intake working paper | not started |
+| 0 | `ads/00-intake.md` | 0, plus the intake working paper | merged |
 | 1 | `ads/01-business-context.md` | 2, 3, 4 | not started |
 | 2 | `ads/02-scope-process.md` | 5, 6, 7 | not started |
 | 3 | `ads/03-authority-requirements.md` | 8, 9, 10 | not started |
@@ -191,3 +191,8 @@ the matrix; the summary claims nothing the body does not support.
 
 One line per event: date, phase, what happened. Include deviations from this plan
 and any revision PRs.
+
+- 2026-10-07, step 1: outcome statement passed `/outcome` and was recorded as DEC-001.
+- 2026-10-07, phase 0: drafted `ads/00-intake.md`, 34 open questions and 6 assumptions logged; in review.
+- 2026-10-07, phase 0: context.md updated by the human; DEC-002 and DEC-003 recorded, ASM-003 rejected, OQ-034 added.
+- 2026-10-07, phase 0: approved and merged. Changed during review: context.md facts recorded as DEC-002; per-state PTO policies recorded as DEC-003; ASM-003 rejected; OQ-001, OQ-002, OQ-005 resolved; OQ-034 added.
