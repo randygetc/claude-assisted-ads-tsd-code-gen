@@ -19,10 +19,10 @@ Mode: REFERENCE
 
 ## Project
 
-- Project name (used in the document title): unknown
-- Organisation, or a description of it: unknown
-- Who is served (users, customers, staff): unknown
-- Locations or jurisdictions involved: unknown
+- Project name (used in the document title): Project Leaves
+- Organisation, or a description of it: US Wide Corp with offices in CA, NY, NJ
+- Who is served (users, customers, staff): staff
+- Locations or jurisdictions involved: CA, NY, NJ
 
 ## Owners
 
