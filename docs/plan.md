@@ -15,7 +15,7 @@ be recorded in `registers/decisions.md`. Status: done (DEC-001, 2026-10-07)
 | Phase | File | ADS sections | Status |
 |---|---|---|---|
 | 0 | `ads/00-intake.md` | 0, plus the intake working paper | merged |
-| 1 | `ads/01-business-context.md` | 2, 3, 4 | not started |
+| 1 | `ads/01-business-context.md` | 2, 3, 4 | merged |
 | 2 | `ads/02-scope-process.md` | 5, 6, 7 | not started |
 | 3 | `ads/03-authority-requirements.md` | 8, 9, 10 | not started |
 | 4 | `ads/04-responsibilities-risks.md` | 11, 12, 13, 14, 15 | not started |
@@ -196,3 +196,5 @@ and any revision PRs.
 - 2026-10-07, phase 0: drafted `ads/00-intake.md`, 34 open questions and 6 assumptions logged; in review.
 - 2026-10-07, phase 0: context.md updated by the human; DEC-002 and DEC-003 recorded, ASM-003 rejected, OQ-034 added.
 - 2026-10-07, phase 0: approved and merged. Changed during review: context.md facts recorded as DEC-002; per-state PTO policies recorded as DEC-003; ASM-003 rejected; OQ-001, OQ-002, OQ-005 resolved; OQ-034 added.
+- 2026-10-07, phase 1: drafted `ads/01-business-context.md`; OQ-035 to OQ-038 added; in review.
+- 2026-10-07, phase 1: approved with no changes during review; PR opened for merge by a second reviewer.
