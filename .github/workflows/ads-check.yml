@@ -1,0 +1,36 @@
+name: ads-check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+
+permissions:
+  contents: read
+
+jobs:
+  ads-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Locked files unchanged
+        if: ${{ !contains(github.event.pull_request.labels.*.name, 'control-change') }}
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          changed=$(git diff --name-only "$BASE"...HEAD \
+            | grep -E '^(CLAUDE\.md|docs/architecture\.md|inputs/ADS_template\.md|inputs/example/|scripts/|\.github/|\.claude/)' || true)
+          if [ -n "$changed" ]; then
+            echo "Locked files changed without the control-change label:"
+            echo "$changed"
+            exit 1
+          fi
+
+      - name: Validate ADS
+        run: python3 scripts/ads.py check
